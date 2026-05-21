@@ -1,9 +1,10 @@
-import { useState } from 'react'
-import './main.css'
+import Profile from './components/Profile'
 
 function App() {
   return (
-    
+    <>
+      <Profile />
+    </>
   )
 }
 
