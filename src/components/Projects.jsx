@@ -20,7 +20,7 @@ function Projects() {
                                 className="project-image"
                             />
                             <div className="p-4">
-                                <h3 className="project-name mb-3">
+                                <h3 className="project-subtitle mb-3">
                                     Painting service.
                                 </h3>
                                 <p className="project-description mb-4">
@@ -41,7 +41,7 @@ function Projects() {
                                 className="project-image"
                             />
                             <div className="p-4">
-                                <h3 className="project-name mb-3">
+                                <h3 className="project-subtitle mb-3">
                                     Memory game.
                                 </h3>
                                 <p className="project-description mb-4">
@@ -62,7 +62,7 @@ function Projects() {
                                 className="project-image"
                             />
                             <div className="p-4">
-                                <h3 className="project-name mb-3">
+                                <h3 className="project-subtitle mb-3">
                                     E-commerce shopping.
                                 </h3>
                                 <p className="project-description mb-4">
@@ -83,7 +83,7 @@ function Projects() {
                                 className="project-image"
                             />
                             <div className="p-4">
-                                <h3 className="project-name mb-3">
+                                <h3 className="project-subtitle mb-3">
                                     Analytics dashboard.
                                 </h3>
                                 <p className="project-description mb-4">
