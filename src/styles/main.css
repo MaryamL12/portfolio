@@ -3,7 +3,7 @@
 /* Multiple sections */
 body {
     font-family: 'Poppins', sans-serif;
-    color: #222222;
+    color: black;
     background-color: white;
     margin: 0;
 }
@@ -95,7 +95,7 @@ body {
 
 .project-description {
     font-size: 1.1rem;
-    color: #222222;
+    color: black;
 }
 
 .project-button {
