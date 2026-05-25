@@ -55,7 +55,6 @@ body {
 /* About section */
 .about-section {
     background-color: #F5EBE0;
-    min-height: 95vh;
 }
 
 .about-subtitle {
@@ -110,6 +109,34 @@ body {
 }
 
 .project-button:hover {
+    background-color: #7634CC;
+    color: white;
+}
+
+/* Experience section */
+.experience-section {
+    background-color: #F5EBE0;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.experience-text {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: black;
+}
+
+.experience-link {
+    background-color: white;
+    color: #5B507A;
+    padding: 18px 24px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.experience-link:hover {
     background-color: #7634CC;
     color: white;
 }
