@@ -38,3 +38,35 @@ body {
     border-radius: 50%;
     border: 6px solid #7634CC;
 }
+
+/* About section */
+.about-section {
+    background-color: #F5EBE0;
+    min-height: 95vh;
+}
+
+.about-title {
+    font-family: 'Sniglet', sans-serif;
+    font-size: 4rem;
+    color: #7634CC;
+}
+
+.about-card {
+    background-color: white;
+    border-radius: 25px;
+}
+
+.about-subtitle {
+    font-size: 2rem;
+    color: #5B507A;
+}
+
+.about-item {
+    font-size: 1.75rem;
+}
+
+.about-icon {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
