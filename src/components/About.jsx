@@ -9,14 +9,14 @@ function About() {
     return (
         <section className="about-section py-5">
             <div className="container">
-                <h2 className="about-title text-center mb-5">
+                <h2 className="section-title text-center mb-5">
                     About me.
                 </h2>
 
                 <div className="row justify-content-center g-5">
                     {/* Personal */}
                     <div className="col-md-5">
-                        <div className="about-card p-5 h-100">
+                        <div className="card p-5 h-100">
                             <h3 className="about-subtitle mb-4">
                                 Personal
                             </h3>
@@ -39,7 +39,7 @@ function About() {
 
                     {/* Professional */}
                     <div className="col-md-5">
-                        <div className="about-card p-5 h-100">
+                        <div className="card p-5 h-100">
                             <h3 className="about-subtitle mb-4">
                                 Professional
                             </h3>
