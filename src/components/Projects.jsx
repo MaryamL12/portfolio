@@ -26,7 +26,7 @@ function Projects() {
                                 <p className="project-description mb-4">
                                     A website to select and book painting services.
                                 </p>
-                                <a href="/paint-project.html" className="project-button">
+                                <a href="https://illustrious-strudel-b067dd.netlify.app/" className="project-button">
                                     Visit
                                 </a>
                             </div>
