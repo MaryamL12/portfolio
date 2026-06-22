@@ -47,7 +47,7 @@ function Projects() {
                                 <p className="project-description mb-4">
                                     A website to play a memory game.
                                 </p>
-                                <a href="/memory-project.html" className="project-button">
+                                <a href="https://jovial-manatee-09b9f2.netlify.app/" className="project-button">
                                     Visit
                                 </a>
                             </div>
