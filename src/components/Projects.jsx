@@ -63,12 +63,12 @@ function Projects() {
                             />
                             <div className="p-4">
                                 <h3 className="project-subtitle mb-3">
-                                    E-commerce shopping.
+                                    E-commerce.
                                 </h3>
                                 <p className="project-description mb-4">
                                     An online store for shopping.
                                 </p>
-                                <a href="shopping-project.html" className="project-button">
+                                <a href="https://gorgeous-lolly-91fb9f.netlify.app/" className="project-button">
                                     Visit
                                 </a>
                             </div>
