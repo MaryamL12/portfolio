@@ -89,7 +89,7 @@ function Projects() {
                                 <p className="project-description mb-4">
                                     An analytics visualization dashboard.
                                 </p>
-                                <a href="analytics-project.html" className="project-button">
+                                <a href="https://sprightly-profiterole-1eb78b.netlify.app/" className="project-button">
                                     Visit
                                 </a>
                             </div>
