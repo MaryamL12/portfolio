@@ -1,7 +1,7 @@
-import paint from '../assets/images/paint-case.png'
-import memory from '../assets/images/memory-case.png'
-import shopping from '../assets/images/shopping-case.png'
-import analytics from '../assets/images/analytics-case.png'
+import service from '../assets/images/service-image.png'
+import memory from '../assets/images/memory-image.png'
+import ecommerce from '../assets/images/ecommerce-image.png'
+import dashboard from '../assets/images/dashboard-image.png'
 
 function Projects() {
     return (
@@ -15,8 +15,8 @@ function Projects() {
                     <div className="col-lg-5">
                         <div className="card h-100">
                             <img 
-                                src={paint}
-                                alt="Paint"
+                                src={service}
+                                alt="All-Colours Service Site Image"
                                 className="project-image"
                             />
                             <div className="p-4">
@@ -57,8 +57,8 @@ function Projects() {
                     <div className="col-lg-5">
                         <div className="card h-100">
                             <img
-                                src={shopping}
-                                alt="Shopping"
+                                src={ecommerce}
+                                alt="E-commerce Store"
                                 className="project-image"
                             />
                             <div className="p-4">
@@ -78,8 +78,8 @@ function Projects() {
                     <div className="col-lg-5">
                         <div className="card h-100">
                             <img
-                                src={analytics}
-                                alt="Analytics"
+                                src={dashboard}
+                                alt="Analytics Dashboard"
                                 className="project-image"
                             />
                             <div className="p-4">
