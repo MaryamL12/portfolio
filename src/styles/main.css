@@ -1,11 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
 
 /* Multiple sections */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     color: black;
     background-color: white;
     margin: 0;
+}
+
+#home,
+#about,
+#experience,
+#projects {
+    scroll-margin-top: 80px;
+}
+
+.container {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .section-title {
@@ -20,6 +36,51 @@ body {
     overflow: hidden;
 }
 
+/* Nav */
+.site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #7634CC;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nav-brand {
+    font-family: 'Sniglet', sans-serif;
+    font-size: 1.75rem;
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.nav-brand:hover {
+    opacity: 0.8;
+}
+
+.nav-link {
+    font-family: 'Sniglet', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 50px;
+    box-shadow: 0 0 0 2px transparent;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: white;
+    box-shadow: 0 0 0 2px white;
+    transform: scale(1.05);
+}
+
+.nav-link.active {
+    color: #7634CC;
+    background-color: #F5EBE0;
+    box-shadow: none;
+}
+
 /* Profile section */
 .profile-section {
     background-color: #F5EBE0;
@@ -28,25 +89,25 @@ body {
 
 .profile-title {
     font-family: 'Sniglet', sans-serif;
-    font-size: 5rem;
+    font-size: 5.5rem;
     line-height: 1;
 }
 
 .profile-title-name {
     font-family: 'Sniglet', sans-serif;
-    font-size: 7rem;
+    font-size: 8.5rem;
     color: #7634CC;
     line-height: 1;
 }
 
 .profile-subtitle {
-    font-size: 2rem;
+    font-size: 2.4rem;
     color: #5B507A;
 }
 
 .profile-image {
-    width: 400px;
-    height: 400px;
+    width: 440px;
+    height: 440px;
     object-fit: cover;
     border-radius: 50%;
     border: 6px solid #7634CC;
@@ -91,29 +152,53 @@ body {
     display: block;
 }
 
+.project-card-body {
+    padding: 1rem 2rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+}
+
 .project-subtitle {
+    width: 100%;
     font-size: 2rem;
+    line-height: 1.2;
     color: #5B507A;
+    margin-bottom: 0.25rem;
 }
 
 .project-description {
+    width: 100%;
     font-size: 1.1rem;
     color: black;
+    line-height: 1.6;
+    margin-bottom: 0;
+    height: calc(1.1rem * 1.6 * 4);
+    overflow: hidden;
 }
 
 .project-button {
-    background-color: #5B507A;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #7634CC;
     color: white;
-    padding: 12px 24px;
+    padding: 14px 28px;
     border-radius: 50px;
+    font-size: 1.25rem;
+    font-weight: 600;
     text-decoration: none;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .project-button:hover {
-    background-color: #7634CC;
+    background-color: #5B507A;
     color: white;
+    transform: scale(1.05);
 }
 
 /* Experience section */
@@ -131,15 +216,21 @@ body {
 }
 
 .experience-link {
-    background-color: white;
-    color: #5B507A;
-    padding: 18px 24px;
-    border-radius: 20px;
-    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+    background-color: #7634CC;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 50px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-decoration: none;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .experience-link:hover {
-    background-color: #7634CC;
+    background-color: #5B507A;
     color: white;
+    transform: scale(1.05);
 }

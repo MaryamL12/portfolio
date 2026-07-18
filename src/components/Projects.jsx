@@ -5,92 +5,92 @@ import dashboard from '../assets/images/dashboard-image.png'
 
 function Projects() {
     return (
-        <section className="project-section py-5">
+        <section id="projects" className="project-section py-5">
             <div className="container">
                 <h2 className="section-title text-center mb-5">
                     Projects.
                 </h2>
 
-                <div className="row justify-content-center g-5">
-                    <div className="col-lg-5">
+                <div className="row g-5">
+                    <div className="col-lg-6">
                         <div className="card h-100">
-                            <img 
+                            <img
                                 src={service}
                                 alt="All-Colours Service Site Image"
                                 className="project-image"
                             />
-                            <div className="p-4">
-                                <h3 className="project-subtitle mb-3">
-                                    All-Colours.
+                            <div className="project-card-body">
+                                <h3 className="project-subtitle">
+                                    All-Colours
                                 </h3>
-                                <p className="project-description mb-4">
-                                    All-Colours is a local painting company site offering residential and commercial painting. Browse interior, exterior, and office painting services and book a consultation appointment.
+                                <p className="project-description">
+                                    All-Colours is a painting company offering residential and commercial painting. Browse interior, exterior, and office painting services and book a consultation appointment.
                                 </p>
-                                <a href="https://illustrious-strudel-b067dd.netlify.app/" className="project-button">
-                                    Visit
+                                <a href="https://illustrious-strudel-b067dd.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-button">
+                                    Go to site
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div className="col-lg-5">
+                    <div className="col-lg-6">
                         <div className="card h-100">
                             <img
                                 src={memory}
                                 alt="Memory Game"
                                 className="project-image"
                             />
-                            <div className="p-4">
-                                <h3 className="project-subtitle mb-3">
-                                    Order of Colours.
+                            <div className="project-card-body">
+                                <h3 className="project-subtitle">
+                                    Order of Colours
                                 </h3>
-                                <p className="project-description mb-4">
-                                    Order of Colours is a Simon-says style memory game: watch the tiles light up, then repeat the sequence. Choose your grid size, speed, and colour palette.
+                                <p className="project-description">
+                                    Order of Colours is a Simon-says memory game: watch the tiles light up, then repeat the sequence. Each round adds a tile until you slip up. Customize the grid, speed, and palette.
                                 </p>
-                                <a href="https://jovial-manatee-09b9f2.netlify.app/" className="project-button">
-                                    Visit
+                                <a href="https://jovial-manatee-09b9f2.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-button">
+                                    Go to site
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div className="col-lg-5">
+                    <div className="col-lg-6">
                         <div className="card h-100">
                             <img
                                 src={ecommerce}
                                 alt="E-commerce Store"
                                 className="project-image"
                             />
-                            <div className="p-4">
-                                <h3 className="project-subtitle mb-3">
-                                    PlantNature.
+                            <div className="project-card-body">
+                                <h3 className="project-subtitle">
+                                    PlantNature
                                 </h3>
-                                <p className="project-description mb-4">
+                                <p className="project-description">
                                     PlantNature is an online plant shop with trees, flowers, food plants, and seeds. Filter by category and check growing details like light needs and season before adding to cart.
                                 </p>
-                                <a href="https://gorgeous-lolly-91fb9f.netlify.app/" className="project-button">
-                                    Visit
+                                <a href="https://gorgeous-lolly-91fb9f.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-button">
+                                    Go to site
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div className="col-lg-5">
+                    <div className="col-lg-6">
                         <div className="card h-100">
                             <img
                                 src={dashboard}
                                 alt="Analytics Dashboard"
                                 className="project-image"
                             />
-                            <div className="p-4">
-                                <h3 className="project-subtitle mb-3">
-                                    Canadian Food Dashboard.
+                            <div className="project-card-body">
+                                <h3 className="project-subtitle">
+                                    Canadian Food Dashboard
                                 </h3>
-                                <p className="project-description mb-4">
-                                    A dashboard tracking 2025 Canadian retail food prices for items like apples, milk, and eggs, sourced from Statistics Canada. Compare one item across the year or all items in a single month.
+                                <p className="project-description">
+                                    A dashboard tracking 2025 Canadian retail food prices for items like apples, milk, and eggs. Compare one item across the year or all items in a single month.
                                 </p>
-                                <a href="https://sprightly-profiterole-1eb78b.netlify.app/" className="project-button">
-                                    Visit
+                                <a href="https://sprightly-profiterole-1eb78b.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-button">
+                                    Go to site
                                 </a>
                             </div>
                         </div>
