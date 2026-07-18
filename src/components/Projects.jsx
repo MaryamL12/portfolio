@@ -21,10 +21,10 @@ function Projects() {
                             />
                             <div className="p-4">
                                 <h3 className="project-subtitle mb-3">
-                                    Painting service.
+                                    All-Colours.
                                 </h3>
                                 <p className="project-description mb-4">
-                                    A website to select and book painting services.
+                                    All-Colours is a local painting company site offering residential and commercial painting. Browse interior, exterior, and office painting services and book a consultation appointment.
                                 </p>
                                 <a href="https://illustrious-strudel-b067dd.netlify.app/" className="project-button">
                                     Visit
@@ -42,10 +42,10 @@ function Projects() {
                             />
                             <div className="p-4">
                                 <h3 className="project-subtitle mb-3">
-                                    Memory game.
+                                    Order of Colours.
                                 </h3>
                                 <p className="project-description mb-4">
-                                    A website to play a memory game.
+                                    Order of Colours is a Simon-says style memory game: watch the tiles light up, then repeat the sequence. Choose your grid size, speed, and colour palette.
                                 </p>
                                 <a href="https://jovial-manatee-09b9f2.netlify.app/" className="project-button">
                                     Visit
@@ -63,10 +63,10 @@ function Projects() {
                             />
                             <div className="p-4">
                                 <h3 className="project-subtitle mb-3">
-                                    E-commerce.
+                                    PlantNature.
                                 </h3>
                                 <p className="project-description mb-4">
-                                    An online store for shopping.
+                                    PlantNature is an online plant shop with trees, flowers, food plants, and seeds. Filter by category and check growing details like light needs and season before adding to cart.
                                 </p>
                                 <a href="https://gorgeous-lolly-91fb9f.netlify.app/" className="project-button">
                                     Visit
@@ -84,10 +84,10 @@ function Projects() {
                             />
                             <div className="p-4">
                                 <h3 className="project-subtitle mb-3">
-                                    Analytics dashboard.
+                                    Canadian Food Dashboard.
                                 </h3>
                                 <p className="project-description mb-4">
-                                    An analytics visualization dashboard.
+                                    A dashboard tracking 2025 Canadian retail food prices for items like apples, milk, and eggs, sourced from Statistics Canada. Compare one item across the year or all items in a single month.
                                 </p>
                                 <a href="https://sprightly-profiterole-1eb78b.netlify.app/" className="project-button">
                                     Visit
