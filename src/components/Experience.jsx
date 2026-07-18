@@ -1,11 +1,11 @@
 function Experience() {
     return (
-        <section className="experience-section py-5">
+        <section id="experience" className="experience-section py-5">
             <div className="container">
                 <h2 className="section-title text-center mb-5">
                     Experience.
                 </h2>
-                <div className="row align-items-center justify-content-between">
+                <div className="row align-items-center g-5">
                     {/* Left side */}
                     <div className="col-lg-7">
                         <p className="experience-text">
@@ -18,11 +18,12 @@ function Experience() {
                     </div>
 
                     {/* Right side */}
-                    <div className="col-lg-4">
+                    <div className="col-lg-5">
                         <div className="experience-links d-flex flex-column gap-4">
                             <a
                                 href="https://uottawa.brightspace.com/d2l/le/content/592979/Home?itemIdentifier=TOC"
                                 target="_blank"
+                                rel="noopener noreferrer"
                                 className="experience-link"
                             >
                                 Course Module 1
@@ -31,6 +32,7 @@ function Experience() {
                             <a
                                 href="https://www.youtube.com/watch?v=5KUNmgt_pvY"
                                 target="_blank"
+                                rel="noopener noreferrer"
                                 className="experience-link"
                             >
                                 UX vs. UI
@@ -39,6 +41,7 @@ function Experience() {
                             <a
                                 href="https://www.nngroup.com/articles/principles-visual-design/"
                                 target="_blank"
+                                rel="noopener noreferrer"
                                 className="experience-link"
                             >
                                 5 Principles of Visual Design in UX

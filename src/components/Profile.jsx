@@ -2,12 +2,12 @@ import profilePic from '../assets/images/profile-picture.jpg'
 
 function Profile() {
     return (
-        <section className="profile-section d-flex align-items-center">
+        <section id="home" className="profile-section d-flex align-items-center">
             <div className="container">
-                <div className="row align-items-center justify-content-center">
+                <div className="row align-items-center">
 
                     {/* Left side */}
-                    <div className="col-lg-6">
+                    <div className="col-lg-7">
                         <h1 className="profile-title mb-0">
                             Hello I'm
                         </h1>
@@ -22,7 +22,7 @@ function Profile() {
                     </div>
 
                     {/* Right side */}
-                    <div className="col-lg-4 text-center">
+                    <div className="col-lg-5 text-center">
                         <img
                             src={profilePic}
                             alt="Profile Picture"

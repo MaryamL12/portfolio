@@ -7,15 +7,15 @@ import collaboration from '../assets/icons/collaboration.png'
 
 function About() {
     return (
-        <section className="about-section py-5">
+        <section id="about" className="about-section py-5">
             <div className="container">
                 <h2 className="section-title text-center mb-5">
                     About me.
                 </h2>
 
-                <div className="row justify-content-center g-5">
+                <div className="row g-5">
                     {/* Personal */}
-                    <div className="col-md-5">
+                    <div className="col-lg-6">
                         <div className="card p-5 h-100">
                             <h3 className="about-subtitle mb-4">
                                 Personal
@@ -38,12 +38,12 @@ function About() {
                     </div>
 
                     {/* Professional */}
-                    <div className="col-md-5">
+                    <div className="col-lg-6">
                         <div className="card p-5 h-100">
                             <h3 className="about-subtitle mb-4">
                                 Professional
                             </h3>
-                            <div className="d-flex flex-column gap-3">
+                            <div className="d-flex flex-column gap-4">
                                 <div className="about-item d-flex align-items-center gap-3">
                                     <img src={java} alt="Java Icon" className="about-icon" />
                                     Java
